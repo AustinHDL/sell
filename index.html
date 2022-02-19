@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>奇特商店</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- 商品选择栏 -->
+    <nav id="nav">
+        <div class="nav-wrapper">
+            <ul class="nav-items" id="nav-items">
+                <!-- 白粿 -->
+                <li class="nav-item baiguo">
+                    <a class="nav-link" href="#" onclick="openEventP(event, 'BG')" id="DOpen">
+                        <figure class="nav-icon"></figure>
+                        <span class="nav-label">白粿</span>
+                    </a>
+                </li>
+                <!-- 米红酒 -->
+                <li class="nav-item drinks">
+                    <a class="nav-link" href="#" onclick="openEventP(event, 'HJ')" id="two">
+                        <figure class="nav-icon"></figure>
+                        <span class="nav-label">米红酒</span>
+                    </a>
+                </li>
+                <!-- 糖年糕 -->
+                <li class="nav-item niangao">
+                    <a class="nav-link" href="#" onclick="openEventP(event, 'NG')" id="three">
+                        <figure class="nav-icon"></figure>
+                        <span class="nav-label">糖年糕</span>
+                        <span class="nav-new">新</span>
+                    </a>
+                </li>
+                <!-- 食谱 -->
+                <li class="nav-item recipe">
+                    <a class="nav-link" href="#" onclick="openEventP(event, 'SP')" id="four">
+                        <figure class="nav-icon"></figure>
+                        <span class="nav-label">食谱</span>
+                        <span class="nav-new">新</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 白粿 -->
+    <div id="BG" class="links-content">
+        <!-- 横幅 -->
+        <nav id="banner" class="banner-area sticky">
+            <div class="banner-wrapper">
+                <div class="banner-background"></div>
+                <div class="banner-content">
+                    <!-- 标题 -->
+                    <div class="banner-title">
+                        <a href="#">白粿</a>
+                    </div>
+                    <!-- 链接按键 -->
+                    <div class="banner-action banner-action-button">
+                        <a class="banner-button" href="order.html">订购</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- 内容 -->
+        <section class="mcontent-section">
+            <div class="mcontent-width">
+                <div class="mcontent-arrange">
+                    <!-- 示意图 -->
+                    <div class="image-container">
+                        <picture class="image-hero">
+                            <img src="Images/Home/baiguo-background-03.jpg">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mcontent-section grey">
+            <div class="mcontent-width">
+                <div class="mcontent-arrange">
+                    <!-- 资讯 -->
+                    <div class="specs-section">
+                        <div class="specs-contain">
+                            <!-- 价格 -->
+                            <div class="specs-row first">
+                                <div class="specs-rowheader">
+                                    价格
+                                    <sup class="footnote-number">
+                                        <a href="#remark-1">1</a>
+                                    </sup>
+                                </div>
+                                <div class="specs-column">
+                                    <span>RM 4.00</span>
+                                </div>
+                            </div>
+                            <!-- 尺寸和重量 -->
+                            <div class="specs-row">
+                                <div class="specs-rowheader">
+                                    尺寸和重量
+                                    <sup class="footnote-number">
+                                        <a href="#remark-2">2</a>
+                                    </sup>
+                                </div>
+                                <div class="specs-column">
+                                    <p>
+                                        <strong>
+                                            高度：
+                                        </strong>
+                                        <span>
+                                            1.5厘米
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <strong>
+                                            直径：
+                                        </strong>
+                                        <span>
+                                            8厘米
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <strong>
+                                            重量：
+                                        </strong>
+                                        <span>
+                                            86公克
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- 包装内容 -->
+                            <div class="specs-row">
+                                <div class="specs-rowheader">包装内含</div>
+                                <div class="specs-column">
+                                    <span>白粿五片</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--提醒区-->
+                    <div class="specs-section att">
+                        <div class="specs-contain">
+                            <div class="specs-row first">
+                                <div class="specs-rowheader">
+                                    保质期
+                                    <sup class="footnote-number">
+                                        <a href="#remark-3">3</a>
+                                    </sup>
+                                </div>
+                                <div class="specs-column">
+                                    <span>三至五天</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--服务-->
+                    <div class="buystrip">
+                        <div class="buystrip-info">
+                            <div class="buystrip-info-column">
+                                <div class="buystrip-info-content">
+                                    <a href="#" class="block">
+                                        <figure class="buystrip-info-icon delivery"></figure>
+                                        <h3 class="buystrip-info-title">
+                                            超市取货或送货上门
+                                            <sup class="footnote-number">
+                                                <a class="title-remark" href="#remark-4"> 4</a>
+                                            </sup>
+                                        </h3>
+                                        <p class="buystrip-info-copy">前往指定超市提取货物，或选择免费送货服务。</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="buystrip-info-column">
+                                <div class="buystrip-info-content">
+                                    <a href="#" class="block">
+                                        <figure class="buystrip-info-icon help"></figure>
+                                        <h3 class="buystrip-info-title">获得购买帮助</h3>
+                                        <p class="buystrip-info-copy">有问题吗？请询问卖家。</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-section">
+            <div class="footer-contain">
+                <!-- 备注 -->
+                <div class="remark">
+                    <ol>
+                        <li id="remark-1">
+                            此价格为一包（五片）白粿的价格。
+                        </li>
+                        <li id="remark-2">
+                            尺寸和重量依制造工艺的不同而可能有所差异。
+                        </li>
+                        <li id="remark-3">
+                            零使用防腐剂或相同效果添加物。请放置在阴凉的区域或冷藏柜里。
+                        </li>
+                        <li id="remark-4">
+                            只贩售和提供服务给位于诗巫（沙捞越，马来西亚）的顾客。选择自取的顾客可以选择在华利（诗巫）超市或者美丹（诗巫）超市取货。顾客需达成条件（购买总价超过50令吉）才能享有免费送货上门的服务。顾客购买总价超过40令吉（低过50令吉）可以享有3令吉送货上门的服务。某些地区不支持送货上门服务，详情请咨询卖家。
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- 红酒 -->
+    <div id="HJ" class="links-content">
+        <!-- 横幅 -->
+        <nav id="banner" class="banner-area sticky">
+            <div class="banner-wrapper">
+                <div class="banner-background"></div>
+                <div class="banner-content">
+                    <!-- 标题 -->
+                    <div class="banner-title">
+                        <a href="#">米红酒</a>
+                    </div>
+                    <!-- 链接按键 -->
+                    <div class="banner-action banner-action-button">
+                        <a class="banner-button" href="order.html">订购</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- 内容 -->
+        <section class="mcontent-section">
+            <div class="mcontent-width">
+                <div class="mcontent-arrange">
+                    <!-- 示意图 -->
+                    <div class="image-container">
+                        <picture class="image-hero">
+                            <img src="Images/Home/hongjiu-background-02.jpg">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mcontent-section grey">
+            <div class="mcontent-width">
+                <div class="mcontent-arrange">
+                    <!-- 资讯 -->
+                    <div class="specs-section">
+                        <div class="specs-contain">
+                            <!-- 价格 -->
+                            <div class="specs-row first">
+                                <div class="specs-rowheader">
+                                    价格
+                                    <sup class="footnote-number">
+                                        <a href="#remark-5">1</a>
+                                    </sup>
+                                </div>
+                                <div class="specs-column">
+                                    <span>RM 15.00</span>
+                                </div>
+                            </div>
+                            <!-- 尺寸和重量 -->
+                            <div class="specs-row">
+                                <div class="specs-rowheader">
+                                    尺寸和重量
+                                    <sup class="footnote-number">
+                                        <a href="#remark-6">2</a>
+                                    </sup>
+                                </div>
+                                <div class="specs-column">
+                                    <p>
+                                        <strong>
+                                            瓶身高度：
+                                        </strong>
+                                        <span>
+                                            29厘米
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <strong>
+                                            瓶身直径：
+                                        </strong>
+                                        <span>
+                                            7厘米
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <strong>
+                                            酒水重量：
+                                        </strong>
+                                        <span>
+                                            0.75千克
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <strong>
+                                            总重量：
+                                        </strong>
+                                        <span>
+                                            1.15千克
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--提醒区-->
+                    <div class="specs-section att">
+                        <div class="specs-contain">
+                            <div class="specs-row first">
+                                <div class="specs-rowheader">
+                                    保存
+                                </div>
+                                <div class="specs-column">
+                                    <span>放置在阴凉处，避免阳光直射</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--服务-->
+                    <div class="buystrip">
+                        <div class="buystrip-info">
+                            <div class="buystrip-info-column">
+                                <div class="buystrip-info-content">
+                                    <a href="#" class="block">
+                                        <figure class="buystrip-info-icon delivery"></figure>
+                                        <h3 class="buystrip-info-title">
+                                            超市取货或送货上门
+                                            <sup class="footnote-number">
+                                                <a class="title-remark" href="#remark-7"> 3</a>
+                                            </sup>
+                                        </h3>
+                                        <p class="buystrip-info-copy">前往指定超市提取货物，或选择免费送货服务。</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="buystrip-info-column">
+                                <div class="buystrip-info-content">
+                                    <a href="#" class="block">
+                                        <figure class="buystrip-info-icon help"></figure>
+                                        <h3 class="buystrip-info-title">获得购买帮助</h3>
+                                        <p class="buystrip-info-copy">有问题吗？请询问卖家。</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-section">
+            <div class="footer-contain">
+                <!-- 备注 -->
+                <div class="remark">
+                    <ol>
+                        <li id="remark-5">
+                            此价格为一瓶米红酒的价格。
+                        </li>
+                        <li id="remark-6">
+                            尺寸和重量依玻璃瓶的大小不同而可能有所差异。
+                        </li>
+                        <li id="remark-7">
+                            只贩售和提供服务给位于诗巫（沙捞越，马来西亚）的顾客。选择自取的顾客可以选择在华利（诗巫）超市或者美丹（诗巫）超市取货。顾客需达成条件（购买总价超过50令吉）才能享有免费送货上门的服务。顾客购买总价超过40令吉（低过50令吉）可以享有3令吉送货上门的服务。某些地区不支持送货上门服务，详情请咨询卖家。
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- 糖年糕 -->
+    <div id="NG" class="links-content">
+        <!-- 横幅 -->
+        <nav id="banner" class="banner-area sticky">
+            <div class="banner-wrapper">
+                <div class="banner-background"></div>
+                <div class="banner-content">
+                    <!-- 标题 -->
+                    <div class="banner-title">
+                        <a href="#">糖年糕</a>
+                    </div>
+                    <!-- 链接按键 -->
+                    <div class="banner-action banner-action-button">
+                        <a class="banner-button" href="order.html">订购</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- 内容 -->
+        <section class="mcontent-section">
+            <div class="mcontent-width">
+                <div class="mcontent-arrange">
+                    <!-- 示意图 -->
+                    <div class="image-container">
+                        <picture class="image-hero">
+                            <img src="Images/Home/niangao-background-02.jpg">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mcontent-section grey">
+            <div class="mcontent-width">
+                <div class="mcontent-arrange">
+                    <!-- 资讯 -->
+                    <div class="specs-section">
+                        <div class="specs-contain">
+                            <!-- 价格 -->
+                            <div class="specs-row first">
+                                <div class="specs-rowheader">
+                                    价格
+                                    <sup class="footnote-number">
+                                        <a href="#remark-8">1</a>
+                                    </sup>
+                                </div>
+                                <div class="specs-column">
+                                    <span>RM 3.00</span>
+                                </div>
+                            </div>
+                            <!-- 尺寸和重量 -->
+                            <div class="specs-row">
+                                <div class="specs-rowheader">
+                                    尺寸和重量
+                                    <sup class="footnote-number">
+                                        <a href="#remark-9">2</a>
+                                    </sup>
+                                </div>
+                                <div class="specs-column">
+                                    <p>
+                                        <strong>
+                                            高度：
+                                        </strong>
+                                        <span>
+                                            2.5厘米
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <strong>
+                                            直径：
+                                        </strong>
+                                        <span>
+                                            9.5厘米
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <strong>
+                                            重量：
+                                        </strong>
+                                        <span>
+                                            0.2千克
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--提醒区-->
+                    <div class="specs-section att">
+                        <div class="specs-contain">
+                            <div class="specs-row first">
+                                <div class="specs-rowheader">
+                                    保质期
+                                    <sup class="footnote-number">
+                                        <a href="#remark-10">3</a>
+                                    </sup>
+                                </div>
+                                <div class="specs-column">
+                                    <span>五至七天</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--服务-->
+                    <div class="buystrip">
+                        <div class="buystrip-info">
+                            <div class="buystrip-info-column">
+                                <div class="buystrip-info-content">
+                                    <a href="#" class="block">
+                                        <figure class="buystrip-info-icon delivery"></figure>
+                                        <h3 class="buystrip-info-title">
+                                            超市取货或送货上门
+                                            <sup class="footnote-number">
+                                                <a class="title-remark" href="#remark-11"> 4</a>
+                                            </sup>
+                                        </h3>
+                                        <p class="buystrip-info-copy">前往指定超市提取货物，或选择免费送货服务。</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="buystrip-info-column">
+                                <div class="buystrip-info-content">
+                                    <a href="#" class="block">
+                                        <figure class="buystrip-info-icon help"></figure>
+                                        <h3 class="buystrip-info-title">获得购买帮助</h3>
+                                        <p class="buystrip-info-copy">有问题吗？请询问卖家。</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-section">
+            <div class="footer-contain">
+                <!-- 备注 -->
+                <div class="remark">
+                    <ol>
+                        <li id="remark-8">
+                            此价格为一块糖年糕的价格。
+                        </li>
+                        <li id="remark-9">
+                            尺寸和重量依制作容器的大小不同而可能有所差异。
+                        </li>
+                        <li id="remark-10">
+                            零使用防腐剂或相同效果添加物。请放置在阴凉的区域或冷藏柜里。
+                        </li>
+                        <li id="remark-11">
+                            只贩售和提供服务给位于诗巫（沙捞越，马来西亚）的顾客。选择自取的顾客可以选择在华利（诗巫）超市或者美丹（诗巫）超市取货。顾客需达成条件（购买总价超过50令吉）才能享有免费送货上门的服务。顾客购买总价超过40令吉（低过50令吉）可以享有3令吉送货上门的服务。某些地区不支持送货上门服务，详情请咨询卖家。
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- 食谱 -->
+    <div id="SP" class="links-content">
+        <!-- 横幅 -->
+        <nav id="banner" class="banner-area sticky">
+            <div class="banner-wrapper">
+                <div class="banner-background"></div>
+                <div class="banner-content">
+                    <!-- 标题 -->
+                    <div class="banner-title">
+                        <a href="#">食谱</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- 内容 -->
+        <div class="content-container">
+            <div class="content-section">
+                <!-- 搜索框 -->
+                <div class="search-container">
+                    <div class="search-placeholder-bar">
+                        <form id="search-placeholder" class="search-placeholder-input">
+                            <div class="search-placeholder-input-text">
+                                <input type="text" id="myInput" class="searchform-input" onkeyup="myS1Function()" placeholder="搜索食谱" autocorrect="off" autocomplete="off">
+                                <button class="searchform-icon" type="submit" disabled></button>
+                                <button id="search-reset" class="searchform-reset" onclick="document.getElementById('myInput').value = ''" disabled>
+                                    <span class="reset-icon"></span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <ul id="myUL" class="recipe-container">
+                    <li class="small-container">
+                        <div class="container">
+                            <a class="title">
+                                <span>
+                                    001 炒白粿（干）
+                                </span>
+                            </a>
+                            <div class="content-row">
+                                <div class="content-rowheader">
+                                    食材明细
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    主料
+                                </div>
+                                <div class="content-column">
+                                    <p>
+                                        白粿： 五片
+                                    </p>
+                                    <p>
+                                        白菜 / 圆包菜： 200克
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    辅料
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        鸡蛋： 两颗
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    配料
+                                </div>
+                                <div class="content-column">
+                                    <p>
+                                        本地红酒： 一汤匙
+                                    </p>
+                                    <p>
+                                        老抽： 一汤匙
+                                    </p>
+                                    <p>
+                                        生抽： 一汤匙
+                                    </p>
+                                    <p>
+                                        食油： 适量
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader">
+                                    步骤
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    一、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        将白粿切片、白菜切小、鸡蛋打散备用。
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    二、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        将食油倒入锅内，然后大火加热。大约等待一分钟，将鸡蛋液导入。将鸡蛋液翻炒至九分熟即可关火出锅，备用。
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    三、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        将食油倒入锅内，然后大火加热。倒入白菜，翻炒三十秒。再倒入白粿。
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    四、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        翻炒后加入开水（少量的水）、加盖焖煮一会儿。加入炒好的鸡蛋，再加入本地红酒，老抽，生抽翻炒、收干汁，然后出锅。
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="small-container">
+                        <div class="container">
+                            <a class="title">
+                                <span>
+                                    002 炒白粿（汤）
+                                </span>
+                            </a>
+                            <div class="content-row">
+                                <div class="content-rowheader">
+                                    食材明细
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    主料
+                                </div>
+                                <div class="content-column">
+                                    <p>
+                                        白粿： 五片
+                                    </p>
+                                    <p>
+                                        白菜 / 圆包菜： 200克
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    辅料
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        鸡蛋： 两颗
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    配料
+                                </div>
+                                <div class="content-column">
+                                    <p>
+                                        本地红酒： 一汤匙
+                                    </p>
+                                    <p>
+                                        生抽： 一汤匙
+                                    </p>
+                                    <p>
+                                        食盐： 适量
+                                    </p>
+                                    <p>
+                                        食油： 适量
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader">
+                                    步骤
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    一、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        将白粿切片、白菜切小、鸡蛋打散备用。
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    二、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        将食油倒入锅内，然后大火加热。大约等待一分钟，将鸡蛋液导入。将鸡蛋液翻炒至九分熟即可关火出锅，备用。
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    三、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        将食油倒入锅内，然后大火加热。倒入白菜，翻炒三十秒。再倒入白粿。
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    四、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        翻炒后加入开水（没过白粿多一点）、加盖焖煮一会儿。加入炒好的鸡蛋，再加入本地红酒，生抽翻炒。试一下咸淡，再斟酌加入适量的食盐，即可出锅。
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="small-container">
+                        <div class="container">
+                            <a class="title">
+                                <span>
+                                    003 炒白粿（炒煮）
+                                </span>
+                            </a>
+                            <div class="content-row">
+                                <div class="content-rowheader">
+                                    食材明细
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    主料
+                                </div>
+                                <div class="content-column">
+                                    <p>
+                                        白粿： 五片
+                                    </p>
+                                    <p>
+                                        白菜 / 圆包菜： 200克
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    辅料
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        鸡蛋： 两颗
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    配料
+                                </div>
+                                <div class="content-column">
+                                    <p>
+                                        本地红酒： 一汤匙
+                                    </p>
+                                    <p>
+                                        老抽： 一汤匙
+                                    </p>
+                                    <p>
+                                        生抽： 一汤匙
+                                    </p>
+                                    <p>
+                                        食油： 适量
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader">
+                                    步骤
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    一、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        将白粿切片、白菜切小、鸡蛋打散备用。
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    二、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        将食油倒入锅内，然后大火加热。大约等待一分钟，将鸡蛋液导入。将鸡蛋液翻炒至九分熟即可关火出锅，备用。
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    三、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        将食油倒入锅内，然后大火加热。倒入白菜，翻炒三十秒。再倒入白粿。
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    四、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        翻炒后加入开水（没过白粿多一点）、加盖焖煮一会儿。加入炒好的鸡蛋，再加入本地红酒，老抽，生抽翻炒、稍微收点汁，然后出锅。
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="small-container">
+                        <div class="container">
+                            <a class="title">
+                                <span>
+                                    004 红酒鸡蛋汤
+                                </span>
+                            </a>
+                            <div class="content-row">
+                                <div class="content-rowheader">
+                                    食材明细
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    主料
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        鸡蛋： 四颗
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    辅料
+                                </div>
+                                <div class="content-column">
+                                    <p>
+                                        青葱： 适量（可不添加）
+                                    </p>
+                                    <p>
+                                        姜： 适量
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    配料
+                                </div>
+                                <div class="content-column">
+                                    <p>
+                                        本地红酒： 三至四汤匙
+                                    </p>
+                                    <p>
+                                        鸡精： 适量
+                                    </p>
+                                    <p>
+                                        食盐： 适量
+                                    </p>
+                                    <p>
+                                        黄油： 30克
+                                    </p>
+                                    <p>
+                                        温水 / 开水： 1200毫升
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader">
+                                    步骤
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    一、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        将鸡蛋打散、青葱切小段、姜切丝备用。
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    二、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        将黄油倒入锅内，然后大火加热。等锅热，加入姜丝爆香。加入鸡蛋液翻炒至七至八分熟，倒入红酒翻炒，让酒精挥发。
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    三、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        倒入开水，煮至沸腾。加入少量的鸡精和盐，试一下味道，再做调整。调整好再煮三至五分钟即可出锅。享用前撒上青葱。
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="small-container">
+                        <div class="container">
+                            <a class="title">
+                                <span>
+                                    005 炸年糕
+                                </span>
+                            </a>
+                            <div class="content-row">
+                                <div class="content-rowheader">
+                                    食材明细
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    主料
+                                </div>
+                                <div class="content-column">
+                                    <p>
+                                        年糕： 一块
+                                    </p>
+                                    <p>
+                                        芋头： 一个
+                                    </p>
+                                    <p>
+                                        番薯： 一个
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    辅料
+                                </div>
+                                <div class="content-column">
+                                    <p>
+                                        面粉：200克
+                                    </p>
+                                    <p>
+                                        ENO粉： 一小包
+                                    </p>
+                                    <p>
+                                        食盐： 一茶匙
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader">
+                                    步骤
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    一、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        将年糕，芋头，番薯切成同等大小，同等厚度。
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    二、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        将面粉倒入一个大小适中的盆中，加入食盐、ENO和水调成粘稠的糊状。
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-rowheader medium">
+                                    三、
+                                </div>
+                                <div class="content-column">
+                                    <span>
+                                        在锅中倒入适合煎炸的油量，加热至适当的温度。将年糕夹在芋头和番薯的中间，裹上面糊，放入油锅中。煎至一面金黄，翻面，将另外一面也煎至金黄。
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/nav.js"></script>
+<script type="text/javascript">
+function myS1Function() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+    if (input.value.length > 0) {
+        document.getElementById("search-placeholder").classList.add("withreset");
+        document.getElementById("search-reset").disabled = false;
+    } else {
+        document.getElementById("search-placeholder").classList.remove("withreset");
+        document.getElementById("search-reset").disabled = true;
+    }
+}
+</script>
+
+</html>
