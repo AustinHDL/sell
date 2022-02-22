@@ -251,7 +251,7 @@ body {
 .shipping-title {
     font-size: 28px;
     line-height: 32px;
-    font-weight: 600;
+    font-weight: bold;
     font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
     color: #6667AA;
     padding-bottom: 20px;
@@ -347,7 +347,7 @@ fieldset {
     .shipping-title {
         font-size: 21px;
         line-height: 25px;
-        font-weight: 600;
+        font-weight: bold;
         font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
         color: #6667AA;
         padding-bottom: 20px;
